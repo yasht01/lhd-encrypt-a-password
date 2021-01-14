@@ -1,7 +1,5 @@
 def rail_cipher(plaintxt):
     step = (4, 2)
-    # Last element of the array signifies 
-    # the number of rails used for encyption.
 
     num_steps = 0
     ciphertxt = ""
@@ -38,8 +36,6 @@ def not_all_checked(arr):
         if arr[i] == False:
             return True
     return False
-
-# print(rail_cipher("HELLOWORLD"))
 
 def main():
     password = input("Enter password: ")
