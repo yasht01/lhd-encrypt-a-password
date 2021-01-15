@@ -15,7 +15,7 @@ def rail_cipher(plaintxt):
                 checked[i] = True
             else:
                 for j in range(i + 1, len(plaintxt)):
-                    if(not(checked[i + 1])):
+                    if(not(checked[j + 1])):
                         ciphertxt += plaintxt[j]
                         checked[j] = True
                         i = j
